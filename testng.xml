@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Documents/JUARA CODING/Ujian-Java-TestNG/Ujian-Java-TestNG/src/test/java/com/juaraCoding/ATMTest.java">
+        <classes>
+            <class name="com.juaraCoding.ATMTest">
+                <methods>
+                    <include name="testLihatSaldo"/>
+                    <include name="testSetorUang"/>
+                    <include name="testSetorUangNegatif"/>
+                    <include name="testTarikUang"/>
+                    <include name="testTarikUangLebihDariSaldo"/>
+                    <include name="testTarikUangNegatif"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
